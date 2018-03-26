@@ -1,0 +1,14 @@
+<div class="process-list-container">    
+    <div class="info-container"> Total {{ totalProcesses  }} processes running </div>
+    <button class="btn" 
+        (click)="getAllProcess()" > Refresh</button>
+    <section>
+        <div class='process-item'
+         *ngFor='let process of processes' 
+         (click)="stopProcess(process)">{{ process.id }} - {{ process.title }}
+             <button class="btn"> Stop </button>
+        </div>
+    </section>
+</div>
+
+  

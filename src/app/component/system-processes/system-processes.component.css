@@ -1,0 +1,29 @@
+.info-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    display: inline-block;
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 2px solid #355169;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.process-list-container {
+    height: 600px;
+    border: 2px solid #355169;
+    overflow: auto;
+}
+
+.process-item {
+    border: 2px solid #355169;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
